@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 2vh;
+    background-color: #202020;
+}
+.logo{
+    cursor: pointer;
+}
+img{
+    object-fit: contain;
+    height: 40px;
+    width: 60px;
+}

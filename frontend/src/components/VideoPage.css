@@ -1,0 +1,51 @@
+.videoPlayer{
+    height: 600px;
+    padding: 1.5rem 10rem 4rem 10rem;
+    /* overflow-x: hidden; */
+}
+.videoIframe{
+    height:100%;
+    width: 100%;
+    border-radius: 10.5px;
+    border:unset;
+}
+.period {
+    width: 5px;
+    height: 5px;
+    background: #C2C2C2;
+    border-radius: 50%;
+    /* margin: 7px 10px; */
+  }
+.video{
+    height: 90%;
+}
+.MuiTypography-root.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.MuiTypography-root.MuiTypography-caption{
+    font-size: 14px;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+.videoData{
+    color: #FFFFFF;
+    padding: 10px 0px 14px 5px;
+    border-bottom: 0.75px solid rgba(216, 216, 216, 0.5);
+    border-radius: 2px;
+}
+.MuiButtonBase-root.MuiButton-root.votes{
+    border-radius: 16px;
+    font-size: 12px;
+    background-color: rgb(66, 66, 66, 0.2);
+    min-width: 75px;
+    height: 30px;
+}
+.MuiButtonBase-root.MuiButton-root.votes:active{
+    background-color: #4ca3fc;
+    
+}
+/* .iconColor:active{
+    fill:#FFFFFF;
+} */

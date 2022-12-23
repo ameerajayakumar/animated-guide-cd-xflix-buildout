@@ -1,0 +1,80 @@
+.panel{
+     background-color: #202020;
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1rem 2rem 2rem ;
+}
+.sortOptions{
+  background-color: #FFFFFF;
+  color: "#586069";
+  border-radius: 20px;
+  padding: 2px 4px 2px 8px;
+}
+.MuiSelect-select.MuiInputBase-input.MuiInput-input{
+  font-size: 14px;
+  padding-right: 10px !important;
+}
+.genre{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ width: 500px;
+}
+.age{
+ padding-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.MuiFormControl-root.sortForm{
+  margin-top: 0px;
+}
+.sort{
+  /* margin-top: -30px;
+  margin-left: 30px; */
+  padding: 0rem 1rem 2rem 3rem ;
+}
+
+.MuiMenu-paper.MuiPaper-root.MuiPopover-paper{
+  border-radius: 4px;
+  background-color: #202020;
+  color:#FFFFFF;
+  width: 120px;
+  font-size: 14px !important;
+  position: absolute;
+}
+.MuiButtonBase-root.MuiMenuItem-root.Mui-selected{
+  background-color: #202020;
+  color:#FFFFFF;
+}
+.MuiButtonBase-root.MuiMenuItem-root.li{
+  font-size: 14px;
+}
+
+.MuiList-root.MuiList-padding.MuiMenu-list{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.updownIcon{
+  color: #424242;
+  height: 16px !important;
+  width: 16px !important;
+  padding-right: 4px;
+}
+.MuiMenuItem-root{
+  padding: 8px 10px;
+}
+.MuiMenuItem-root:hover{
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+@media screen and (min-width: 1222px) {
+  .panel{
+    padding: 0.2rem 0rem 2rem 10rem ;
+  }
+}

@@ -1,0 +1,42 @@
+.MuiPaper-root.MuiDialog-paper{
+    background-color: #313131;    /* box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2); */
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #ffffffde;
+}
+.MuiDialogContent-root.content{
+    background-color: #313131;
+}
+.MuiInputBase-root.MuiOutlinedInput-root{
+    color: #ffffffde;
+    border-color: #dadada;
+}
+.MuiFormHelperText-root.MuiFormHelperText-sizeMedium.MuiFormHelperText-contained{
+    color: #ffffff99;
+    /* color: red; */
+}
+.MuiButtonBase-root.submitBtn{
+    color: #FFFFFF;
+    background-color: #EE1520;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.MuiButtonBase-root.submitBtn:hover{
+    color: #FFFFFF;
+    background-color: #EE1520;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.MuiButtonBase-root.cancelBtn{
+    color: #ffffffde;
+    padding: 10px;
+}

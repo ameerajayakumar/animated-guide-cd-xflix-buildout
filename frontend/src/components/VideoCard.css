@@ -1,0 +1,34 @@
+.MuiButtonBase-root.MuiCardActionArea-root{
+    color: white;
+}
+.MuiPaper-root.MuiCard-root{
+    box-shadow: none;
+    border-radius: unset;
+    background-color: #181818;
+}
+.videotile{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px;
+}
+.videoImage{
+    height: 153px;
+    width: 276px;
+}
+.MuiCardContent-root.cardContent{
+    padding-left: 4px;
+    padding-top: 4px;
+    text-align: left;
+}
+.MuiTypography-root.videoTitle{
+    font-weight: 700; 
+    font-size: 14px;
+    line-height: 16px;
+}
+.MuiTypography-root.videoRDate{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color:#D1D5DA;
+    padding-top: 4px;
+}

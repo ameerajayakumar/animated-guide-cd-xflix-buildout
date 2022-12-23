@@ -1,0 +1,35 @@
+.MuiButtonBase-root.MuiButton-root.uploadBtn{
+    padding: 7px 28px;
+    font-size: 12px;
+    background-color: #4ca3fc;
+    text-transform: none;
+    font-weight: 400;
+}
+.MuiButton-startIcon>*:nth-of-type(1).uploadIcon{
+    font-size: 16px;
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444D56;
+    border-radius: 2px;
+    padding: 0px;
+    background-color: #121212;
+}
+.search{
+    width: 300px;
+}
+.MuiInputBase-input.MuiInput-input{
+    padding: 0px 0px 0px 4px;
+}
+.searchicon{
+    background-color: #313131;
+    width: 63px;
+    height: 29px;
+}
+@media screen and (min-width: 768px) {
+    .search{
+        width: 500px;
+    }
+}
